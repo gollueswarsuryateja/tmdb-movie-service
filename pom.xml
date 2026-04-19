@@ -114,9 +114,10 @@
 						<push>true</push>
 					</image>
 					<docker>
-						publishRegistryAuth>
+						<publishRegistry>
 							<username>${env.DOCKERHUB_USER}</username>
 							<password>${env.DOCKERHUB_PWD}</password>
+						</publishRegistry>
 					</docker>
 				</configuration>
 			</plugin>
